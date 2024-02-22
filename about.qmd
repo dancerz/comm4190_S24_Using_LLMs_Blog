@@ -1,8 +1,9 @@
 ---
 title: About
-image: profile.jpg
+image: project2.jpg
 about:
   template: jolla
 ---
 
 About this blog
+My name is Zaria Dancer and I am a student at the University of Pennsylvania studying Communication with a concentration in Data & Network Science. This blog is about my explorations and experimentation with Large Learning Models. 
