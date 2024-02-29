@@ -1,15 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dancerz.github.io/comm4190_S24_Using_LLMs_Blog/posts/000_test_post/index.html</loc>
-    <lastmod>2024-02-22T19:58:18.234Z</lastmod>
+    <loc>https://dancerz.github.io/comm4190_S24_Using_LLMs_Blog/posts/post_4/blogpost4.html</loc>
+    <lastmod>2024-02-29T03:04:26.561Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dancerz.github.io/comm4190_S24_Using_LLMs_Blog/posts/post_2/blogpost2.html</loc>
+    <lastmod>2024-02-29T03:04:26.541Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dancerz.github.io/comm4190_S24_Using_LLMs_Blog/posts/post_1/blogpost1.html</loc>
+    <lastmod>2024-02-29T03:04:26.533Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dancerz.github.io/comm4190_S24_Using_LLMs_Blog/posts/post_3/blogpost3.html</loc>
+    <lastmod>2024-02-29T03:04:26.553Z</lastmod>
   </url>
   <url>
     <loc>https://dancerz.github.io/comm4190_S24_Using_LLMs_Blog/about.html</loc>
-    <lastmod>2024-02-22T19:58:18.234Z</lastmod>
+    <lastmod>2024-02-29T03:04:26.529Z</lastmod>
   </url>
   <url>
     <loc>https://dancerz.github.io/comm4190_S24_Using_LLMs_Blog/index.html</loc>
-    <lastmod>2024-02-22T19:58:18.234Z</lastmod>
+    <lastmod>2024-02-29T03:04:26.529Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dancerz.github.io/comm4190_S24_Using_LLMs_Blog/posts/post_5/blogpost5.html</loc>
+    <lastmod>2024-02-29T03:04:26.569Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dancerz.github.io/comm4190_S24_Using_LLMs_Blog/posts/post_6/blogpost6.html</loc>
+    <lastmod>2024-02-29T03:04:26.573Z</lastmod>
   </url>
 </urlset>
