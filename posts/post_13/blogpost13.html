@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.554">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Explorations with LLMs - Health Communication Assignment: Stress Management</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Explorations with LLMs</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Health Communication Assignment: Stress Management</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<p>by <strong>Zaria Dancer</strong>&nbsp;&nbsp;</p>
+<hr>
+<p>For our Health Communication Messaging Assignment, we decided to select <strong>Stress Management</strong>. When we began this project, we started by crafting words to feed to AI models to create our images, messaging, and other information materials. This didn’t turn out how we expected, so we continued this process by leveraging AI to create prompts / specific scripts to feed to AI models that create Images and Videos.</p>
+<section id="target-behavior-effective-stress-management-techniques" class="level4">
+<h4 class="anchored" data-anchor-id="target-behavior-effective-stress-management-techniques"><strong>Target Behavior</strong>: Effective Stress Management Techniques</h4>
+<p>Right below, you can see our initial attempts and outputs:</p>
+<p>These were generated with simple language such as <strong>yoga</strong>, <strong>meditation</strong>, <strong>mindfulness</strong>, and <strong>stress management</strong>.</p>
+<p><img src="img/AI.jpg" width="30%"></p>
+<p><img src="img/AI2.jpg" width="30%"></p>
+<p><img src="img/AI3.jpg" width="30%"></p>
+<p><img src="img/AI4.jpg" width="30%"></p>
+<p>These are obviously not what we are looking for given the scope of this project. Going forward, I aimed to create outputs the fit well with the objective and feel more realistic. Its important for the audience to see themselves within the content, they should be able to connect with the material they are digesting.</p>
+</section>
+<section id="text" class="level2">
+<h2 class="anchored" data-anchor-id="text">Text</h2>
+<p>What is Health Communication: Society for Health Communication: Health communication is the science and art of using communication to advance the health and well-being of people and populations. https://www.societyforhealthcommunication.org/health-communication Theory-informed Message Content – What? Individual health behavior change theories Interpersonal theories Social and structural change theories Message Features and Appeals – How? Framing - gain vs.&nbsp;loss Narratives &amp; Exemplars Emotions – fear, humor Cultural tailoring Message sensation value Trusted messengers These are not mutually exclusive.</p>
+<p>Take this a specific health related behavior Stress Management</p>
+<p>generate a messaging campaign IDEAS and outputs for a couple of different media (e.g.&nbsp;social media post, infographic PSA, video etc)</p>
+<ol type="A">
+<li>a contrasting framing or message type/style discussed in the slides, e.g.&nbsp;LOSS vs GAIN framing, INFORMATIONAL vs NARRATIVE message, etc.</li>
+<li>A specific style/type of messaging but applied across different target demographics (e.g.&nbsp;by age, ethnicity, gender, sexual orientation/identity etc.)</li>
+</ol>
+<section id="gemini-google-ai-model" class="level3">
+<h3 class="anchored" data-anchor-id="gemini-google-ai-model">Gemini (Google AI Model)</h3>
+<section id="scenario-a-contrasting-framing-gain-vs.-loss" class="level4">
+<h4 class="anchored" data-anchor-id="scenario-a-contrasting-framing-gain-vs.-loss">Scenario A: <em>Contrasting Framing (Gain vs.&nbsp;Loss)</em></h4>
+</section>
+<section id="social-media-post-instagramfacebook" class="level4">
+<h4 class="anchored" data-anchor-id="social-media-post-instagramfacebook"><strong>Social Media Post</strong> (Instagram/Facebook):</h4>
+<p><strong>Campaign Slogan</strong>: Don’t Let Stress Steal Your Joy. Find Calm and Take Control.</p>
+<p><strong>Image</strong>: Split image. Left side: Person overwhelmed with work, frustrated expression. Right side: Person calmly meditating in nature, smiling.</p>
+<p><strong>Caption</strong>: Feeling stressed? Don’t wait until it impacts your happiness. Learn simple techniques to manage stress and regain control of your well-being. Visit our website (link in bio) for free resources! #stressmanagement #mentalhealth</p>
+</section>
+<section id="infographic-psa-printdigital" class="level4">
+<h4 class="anchored" data-anchor-id="infographic-psa-printdigital"><strong>Infographic PSA</strong> (Print/Digital):</h4>
+<p><strong>Headline</strong>: Fight Back Against Stress: Gain Calm, Not Chaos</p>
+<p><strong>Content</strong>: Highlight negative consequences of stress (loss of sleep, health problems, strained relationships). (Loss Frame)</p>
+<p>Showcase benefits of stress management techniques (improved sleep, increased focus, better mood). (Gain Frame)</p>
+<p>Offer resources for learning relaxation techniques (deep breathing, meditation)</p>
+</section>
+<section id="scenario-b-tailored-messaging-by-age-group" class="level4">
+<h4 class="anchored" data-anchor-id="scenario-b-tailored-messaging-by-age-group">Scenario B: Tailored Messaging by Age Group</h4>
+</section>
+<section id="social-media-post-tiktokyoutubeinstagram" class="level4">
+<h4 class="anchored" data-anchor-id="social-media-post-tiktokyoutubeinstagram"><strong>Social Media Post</strong> (TikTok/YouTube/Instagram):</h4>
+<p><strong>Campaign Slogan</strong>: Stress Less, Live More. Find what works for YOU.</p>
+<p><strong>Target Audience</strong>: Young Adults (18-25)</p>
+<p><strong>Style</strong>: Energetic, relatable, humorous.</p>
+<p><strong>Content</strong>: Short skit portraying a young adult juggling school, work, and social life, feeling overwhelmed. Introduce quick stress management tips (power naps, mindfulness exercises) delivered in a lighthearted way.</p>
+<p><strong>Call to Actio</strong>n: Visit our website for a personalized stress management plan!</p>
+</section>
+<section id="informational-pamphlet-community-centersdoctors-offices" class="level4">
+<h4 class="anchored" data-anchor-id="informational-pamphlet-community-centersdoctors-offices"><strong>Informational Pamphlet</strong> (Community Centers/Doctor’s Offices):</h4>
+<p>Target Audience: Older Adults (55+)</p>
+<p><strong>Style</strong>: Clear, concise, informative.</p>
+<p><strong>Content</strong>: Explain the connection between stress and health for older adults (heart disease, weakened immune system).</p>
+<p><strong>Highlight</strong>: Easy-to-follow relaxation techniques (gentle yoga, spending time in nature).</p>
+<p><strong>Call to Action</strong>: Talk to your doctor about stress management and creating a healthy lifestyle plan.</p>
+</section>
+</section>
+<section id="then-i-asked-chatgpt" class="level3">
+<h3 class="anchored" data-anchor-id="then-i-asked-chatgpt"><strong>Then I asked ChatGPT</strong></h3>
+<p><strong>PROMPT</strong>: How effective are these ideas for a Health Communication Campaign focused on Stress Management?</p>
+<p><strong>RESPONSE</strong></p>
+<blockquote class="blockquote">
+<p>Both scenarios present effective approaches for a health communication campaign focused on stress management. Let’s evaluate each scenario:</p>
+<p>Scenario A: Contrasting Framing (Gain vs.&nbsp;Loss)</p>
+<p><em>Strengths</em>:</p>
+<p>Dual Framing: By using both gain and loss framing, the campaign appeals to a broader audience. Some individuals may respond more to the benefits they could gain from managing stress, while others may be motivated by avoiding negative consequences. Visual Appeal: The split image and contrasting visuals effectively convey the message, making it engaging and memorable. Clear Call to Action: The call to action directs individuals to the campaign website for free resources, providing a tangible next step for those interested in managing their stress.</p>
+<p><em>Potential Improvements</em>:</p>
+<p>Diverse Representation: Ensure that the campaign visuals and messaging represent a diverse range of demographics to make it more inclusive and relatable to a wider audience.</p>
+<p>Interactive Elements: Consider incorporating interactive elements in the social media post or infographic to encourage audience engagement, such as polls or quizzes related to stress management.</p>
+<p>Scenario B: Tailored Messaging by Age Group</p>
+<p><em>Strengths</em>:</p>
+<p>Targeted Messaging: Tailoring the message to specific age groups acknowledges the unique stressors and preferences of different demographics, increasing relevance and effectiveness.</p>
+<p>Platform Suitability: The choice of platforms (YouTube/TikTok for young adults and community centers/doctor’s offices for older adults) aligns with the preferences and habits of each age group, maximizing reach and engagement.</p>
+<p>Appropriate Tone: The tone of the content matches the characteristics of each age group, ensuring that the message resonates with the intended audience.</p>
+<p><em>Potential Improvements</em>:</p>
+<p>Inclusivity: While tailoring messages by age group is effective, it’s essential to recognize the diversity within each demographic and ensure that the campaign is inclusive of various cultural backgrounds, lifestyles, and experiences.</p>
+<p>Personalization: Consider incorporating elements of personalization beyond age group, such as gender or occupation, to further enhance relevance and engagement.</p>
+<p>In conclusion, both scenarios offer valuable strategies for a health communication campaign focused on stress management. By combining elements of both approaches and addressing potential improvements, the campaign can effectively reach and resonate with a diverse audience, encouraging them to adopt effective stress management techniques.</p>
+</blockquote>
+</section>
+</section>
+<section id="images" class="level2">
+<h2 class="anchored" data-anchor-id="images">Images</h2>
+<p>I decided to use the exact text that was generated from <strong>Google’s Gemini</strong>, to create images with <strong>Bing’s Co-Pilot</strong>. Below, you will see each input and all 4 outputs that correspond (with the input).</p>
+<pre><code>Campaign Slogan: Don't Let Stress Steal Your Joy. Find Calm and Take Control. Social Media Post (Instagram/Facebook): Image: Split image. Left side: Person overwhelmed with work, frustrated expression. Right side: Person calmly meditating in nature, smiling.</code></pre>
+<p><img src="img/split.jpg" width="30%"></p>
+<p>The overall concept of split image is well suited for stress management health communication. This specific image does a excellent job depicting a calm atmosphere and individual. On the other hand, the stressed side is scary and the words are not legible but is effective visually. Feedback participants agreed stated that the photo was striking, but drew their attention. Overall, this is my favorite output from this prompt. This was one of their favorites.</p>
+<p><img src="img/split2.jpg" width="30%"></p>
+<p>This output isn’t sufficient on its own. I would utilize this as one of the ideal lifestyle and balance photos, but not to grab a reader/viewer’s attention. I would want my content to depict a clear difference between stress and rest. In addition, this photo shows two completely different people, which I find misleading.</p>
+<p><img src="img/split3.jpg" width="30%"></p>
+<p>Similarly to the photo above, this output isn’t sufficient on its own. I would utilize this as one of the ideal lifestyle photos, but not to grab a reader/viewer’s attention. I would want my content to depict a clear difference between stress and rest. I also didn’t enjoy the fact that the person is shirtless.</p>
+<p><img src="img/split4.jpg" width="30%"></p>
+<p>This output shows a ideal balance in regards to stress management. I am a fan of the visuals, specifically the extra back-round people. My issue with this output is the <strong>text</strong>. During my prompting journey with AI, I frequently see models having issues generating text on images. Feedback participants really enjoyed the colors of this output and found it to balanced and calming. They feel like this output works well with the overall message. This was one of their favorites.</p>
+<pre><code>Image: Split image. Left side: Person overwhelmed with work, frustrated expression. Right side: Person calmly meditating in nature, smiling.</code></pre>
+<p><img src="img/split5.jpg" width="30%"></p>
+<p>Feedback participants felt like the paper was too much and that it didn’t pique their interest. It also doesn’t show the contrast enough or express a clear message. There should be a clear dichotomy, but there isn’t.</p>
+<p><img src="img/split6.jpg" width="30%"></p>
+<p>Participants in the feedback group dislike this one all together - there isn’t a clear message and the graphics are somewhat unappealing.</p>
+<p><img src="img/split8.jpg" width="30%"></p>
+<p>The feedback participants were not fond of faces on the left side - they found them to be weird and exaggerated.</p>
+<p><img src="img/split9.jpg" width="30%"></p>
+<p>The split is weird and makes it seem like two different pictures. The participants did not like the last two.</p>
+<pre><code>&nbsp;Feeling stressed? Don't wait until it impacts your happiness. Learn simple techniques to manage stress and regain control of your well-being.</code></pre>
+<p><img src="img/stress.jpg" width="30%"></p>
+<p>Both, the participants and myself, are not sure what he is holding. This output was confusing.</p>
+<p><img src="img/stress2.jpg" width="30%"></p>
+<p><img src="img/stress3.jpg" width="30%"></p>
+<p><img src="img/stress4.jpg" width="30%"></p>
+<p>The feedback participants don’t like any of these outputs, and emphasized not receiving the intended stress management message.</p>
+<pre><code>Infographic PSA (Print/Digital): Headline: Fight Back Against Stress: Gain Calm, Not Chaos Content: Highlight negative consequences of stress (loss of sleep, health problems, strained relationships). (Loss Frame) Showcase benefits of stress management techniques (improved sleep, increased focus, better mood). (Gain Frame)</code></pre>
+<p><img src="img/info.jpg" width="100%"></p>
+<p><img src="img/info2.jpg" width="100%"></p>
+<p><img src="img/info3.jpg" width="100%"></p>
+<p><img src="img/info4.jpg" width="100%"></p>
+<p>The Infographics are aesthetically pleasing, but after the title, the words are ineligible. The love the styles of 1 &amp; 3, and the colors used in the 2nd. Overall the 4th is my favorite. Feedback participants loved the colors and schemes, but did comment on the words being.</p>
+<pre><code>Informational Pamphlet (Community Centers/Doctor's Offices): Target Audience: Older Adults (55+) Style: Clear, concise, informative. Content: Depict the connection between stress and health for older adults (heart disease, weakened immune system). Show relaxation techniques (gentle yoga, spending time in nature). Call to Action: depict healthy stress management and creating a healthy lifestyle plan.</code></pre>
+<p><img src="img/old.jpg" width="50%"></p>
+<p><img src="img/old2.jpg" width="50%"></p>
+<p>The layout of this output is aesthetically pleasing, but the text is too small.</p>
+<p><img src="img/old3.jpg" width="50%"></p>
+<p><img src="img/old4.jpg" width="50%"></p>
+<p>Again, the words are ineligible. This is consistent across most of the content.</p>
+<pre><code>Informational Pamphlet (Community Centers/Doctor's Offices): Target Audience: Older Adults (55+) Style: Clear, concise, informative. Content: Explain the connection between stress and health for older adults (heart disease, weakened immune system). Highlight: Easy-to-follow relaxation techniques (gentle yoga, spending time in nature). Call to Action: Talk to your doctor about stress management and creating a healthy lifestyle plan.</code></pre>
+<p><img src="img/old5.jpg" width="50%"></p>
+<p><img src="img/old6.jpg" width="50%"></p>
+<p><img src="img/old7.jpg" width="50%"></p>
+<p><img src="img/old8.jpg" width="50%"></p>
+<p>Overall, the feedback participants were very fond of the aesthetics and styles, but disliked that they could not read the words.</p>
+<pre><code>Campaign Slogan: Stress Less, Live More. Find what works for YOU. Social Media Video (YouTube/TikTok): Target Audience: Young Adults (18-25) Style: Energetic, relatable, humorous. Content: Short skit portraying a young adult juggling school, work, and social life, feeling overwhelmed. Introduce quick stress management tips (power naps, mindfulness exercises) delivered in a lighthearted way. Call to Action: Visit our website for a personalized stress management plan!</code></pre>
+<p>Although this prompt is crafted for a short social media video, I decided to use it for as a prompt for image generation.</p>
+<p><img src="img/new1.jpg" width="50%"></p>
+<p>The words on this picture show up more clear and legible than many of the others.</p>
+<p><img src="img/new2.jpg" width="50%"></p>
+<p>This person in this output is very realistic, which I don’t see often.</p>
+<p><img src="img/new3.jpg" width="50%"></p>
+<p><img src="img/new4.jpg" width="50%"></p>
+<p>This output could be used as an effective thumbnail on a Youtube Video.</p>
+</section>
+<section id="video" class="level2">
+<h2 class="anchored" data-anchor-id="video">Video</h2>
+<p>For the videos, I created two versions. Based on the feedback we received, the first video is a clear winner. I wish the video process was more personalized. I used Pictory, and wish the output aligned more with my input. I used the bold feature to specify and emphasis additional attention/importance. This included words such as: <strong>young adults</strong>, <strong>stress</strong>, <strong>school</strong>, <strong>work</strong>, <strong>social life</strong>, <strong>power maps</strong>, and <strong>mindfulness exercises</strong>. Overall, this model is great for quick content creations, but isn’t necessarily suitable for Health Communication Messaging. Health Communication Messaging Material should be creative, analytical, concise, and broadly applicable. When utilizing AI it should be leveraged in collaboration with Human expertise, especially in the Health Care setting.</p>
+<pre><code>Social Media Post (TikTok/YouTube/Instagram):
+Campaign Slogan:  Stress Less, Live More. Find what works for YOU.
+
+Target Audience: Young Adults (18-25)
+
+Style: Energetic, relatable, humorous.
+
+Content: Short skit portraying a young adult juggling school, work, and social life, feeling overwhelmed. Introduce quick stress management tips (power naps, mindfulness exercises) delivered in a lighthearted way.
+
+Call to Action: Visit our website for a personalized stress management plan!</code></pre>
+<video width="320" height="240" controls="" src="video/bestvid.mp4" type="application/mp4">
+<source src="video/bestvid.mp4" type="application/mp4">
+</video>
+<video width="320" height="240" controls="" src="video/bestvid.mov" type="application/mov">
+<source src="video/bestvid.mov" type="application/mov">
+</video>
+<p>Participants say that they foound the video to be peaceful and calming; the subtitles were helpful and expressed the message. They also felt like the scenes worked well. On there hand, some found the messaging cheesy at times.</p>
+<video width="320" height="240" controls="" src="video/vid2.mp4" type="application/mp4">
+<source src="video/vid2.mp4" type="application/mp4">
+</video>
+<p>Overall, there are elements from most of the outputs that I enjoy. The infographics have potential and the styles/colors used in the content were aesthetically pleasing. I love when content is visually organized and this is vital in the Health Care Communication aspect. Furthermore, when utilizing AI it should be leveraged in collaboration with Human expertise, especially in the Health Care setting. People’s lives and health are at stake, so it its important to be meticulous and mindful; I don’t think that AI models have these capabilities yet - when it comes to generating visually digestible content. AI is better utilized as a tool and not the creator - it missed the mark with the actually word contents and constantly generated ineligible. Ineligible words when trying to create awareness and spread a message is counter-intuitive. Much of the content would be significant improved with words that are clear, understandable, and organized. My next steps is to create content that can be used by taking elements &amp; aspects from the AI model outputs and merging them/adding actual information.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/dancerz\.github\.io\/comm4190_S24_Using_LLMs_Blog\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

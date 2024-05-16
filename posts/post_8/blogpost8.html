@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Zaria Dancer">
-<meta name="dcterms.date" content="2024-02-20">
+<meta name="dcterms.date" content="2024-03-14">
 <meta name="description" content="A post from a Jupyter notebook">
 
-<title>Explorations with LLMs - Personal Prompting with AI - The Best Restaurants in Philadelphia</title>
+<title>Explorations with LLMs - Building a Portfolio Website with LLM’s Pt. 1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -116,7 +116,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Personal Prompting with AI - The Best Restaurants in Philadelphia</h1>
+      <h1 class="title">Building a Portfolio Website with LLM’s Pt. 1</h1>
                   <div>
         <div class="description">
           A post from a Jupyter notebook
@@ -125,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
                           <div class="quarto-categories">
                 <div class="quarto-category">LLMs</div>
                 <div class="quarto-category">prompting</div>
-                <div class="quarto-category">research</div>
+                <div class="quarto-category">website</div>
               </div>
                   </div>
   </div>
@@ -143,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">February 20, 2024</p>
+        <p class="date">March 14, 2024</p>
       </div>
     </div>
     
@@ -162,49 +162,56 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="personal-prompting-what-are-the-best-restaurants-in-the-city-of-philadephia" class="level1">
-<h1>Personal Prompting: What are the best restaurants in the city of Philadephia?</h1>
+<section id="the-beginning-of-building-a-portfolio-website-part-1" class="level1">
+<h1>The Beginning of Building a Portfolio Website (Part 1)</h1>
+<p>Welcome back to my blog! Recently, I have been interested in leveraging Artificial Intelligence to create more physical outputs that I can integrate + use in my daily life. As a COMM, Data &amp; Network Science, and Consumer Psych student passionate about data-driven growth and creativity, I would really like to create an online portfolio that showcases work I have completed. This is the beginning and first part to a process of hopefully creating a portfolio website. I am beginning with Gemini and will compare outputs from different LLMs, merging the options I feel are best for my portfolio. below, you can see my original prompt.</p>
+<pre><code>My Original Prompt: I want to build a website portfolio for free. I want to include my creative endeavors, my research, my work with AI. How can I start? Can you help me build this?</code></pre>
+<section id="geminis-response" class="level2">
+<h2 class="anchored" data-anchor-id="geminis-response"><strong>Gemini’s Response</strong></h2>
+<p>Absolutely! Building a free website portfolio to showcase your creative and technical sides is a great way to impress potential employers or collaborators. Here’s how you can approach this:</p>
+<p><strong>Choosing a platform:</strong></p>
+<p>There are two main options for free website creation:</p>
+<p>Website Builders: These platforms offer user-friendly interfaces with drag-and-drop functionalities. They often have free plans with limitations like storage space or custom domain names (instead of a generic subdomain). Some popular options include Wix, Canva, and Crevado. These are great for beginners with no coding experience.</p>
+<p>Self-hosting with Github Pages: This method involves a bit more technical know-how but offers more control and flexibility. You build your website locally using HTML, CSS, and Javascript (or website building frameworks), and then upload it to Github Pages for free hosting. There are many tutorials available online to get you started with Github Pages [YouTube how to create a portfolio website for free].</p>
+<p><strong>What to include:</strong></p>
+<p>Homepage: A clear and concise introduction highlighting your skills and experience. Include a captivating visual element and a brief bio.</p>
+<p>Project Section: Dedicate separate pages or sections to showcase your creative work (art, design, writing, etc.), research projects, and AI projects. Use high-quality visuals, clear descriptions, and links to any relevant online content.</p>
+<p>Contact Section: Make it easy for potential employers or collaborators to reach you. Include your email address and links to your professional social media profiles (LinkedIn, etc.).</p>
+<p><strong>Building your website:</strong></p>
+<p>If you choose a website builder, explore their free templates and pick one that suits your style. Canva offers free portfolio-specific templates that are easy to customize. You can drag-and-drop elements, upload your content, and personalize the design with your own fonts and colors.</p>
+<p>For Github Pages, you’ll need to learn some basic coding. There are many online resources and tutorials to get you started. Here’s a benefit - the skills you learn will be valuable in the long run, especially if you’re interested in AI or web development.</p>
+<p><strong>Additional Tips:</strong></p>
+<p>Mobile-friendliness: Ensure your website looks good and functions well on all devices (desktops, tablets, phones). Keep it simple and clean: Don’t clutter your website with too much information or complex design elements.</p>
+<p>Focus on your best work: Highlight your strongest projects that showcase your abilities.</p>
+<p>Proofread carefully: Ensure there are no typos or grammatical errors.</p>
+<p>Remember, this is your online presence, so make sure it reflects your personality and professionalism. With some effort and creativity, you can build a free portfolio website that effectively showcases your skills and accomplishments.</p>
+<pre><code>I want to use self-hosting with Github Pages. What is my first step?</code></pre>
+<p>The first step for self-hosting with Github Pages involves creating a GitHub account and a new repository specifically named for your portfolio website. Here’s a breakdown:</p>
+<p>Create a Github Account: If you don’t have one already, head over to https://github.com/ and sign up for a free account.</p>
+<p>Create a New Repository: Once logged in, navigate to the “Repositories” section on your Github dashboard. Click the green “New repository” button.</p>
+<p>Name your Repository: Here’s the crucial part - for Github Pages to automatically publish your website, the repository name needs to follow a specific format: username.github.io (replace “username” with your actual Github username).</p>
+<p>Important Note: Make sure the repository name exactly follows this format “.github.io” at the end, otherwise Github Pages won’t recognize it for hosting.</p>
+<p>Once you’ve named your repository and added a brief description (optional), click the “Create repository” button. This creates your empty website foundation on Github.</p>
+<p>Congratulations! You’ve completed the first step towards building your self-hosted portfolio website with Github Pages.</p>
+<p>In the next steps, you’ll focus on building the website content locally using HTML, CSS, and Javascript (or a website building framework), and then pushing those files to your newly created Github repository.</p>
+<p>Here are some resources that will be helpful as you move forward:</p>
+<p>Official Github Pages documentation: https://docs.github.com/pages Tutorial on creating a portfolio website with Github Pages: [YouTube how to create a portfolio website for free]</p>
 <hr>
-<blockquote class="blockquote">
-<p>Can you create a list of the best restaurants in Philadelphia? Include restaurants from all cuisines and price points. Explain why each restaurant made the list.</p>
-</blockquote>
-<section id="gpt-4-previews-list" class="level2">
-<h2 class="anchored" data-anchor-id="gpt-4-previews-list">GPT 4 Preview’s List:</h2>
-<p>Sure, I can provide a list of some of the top restaurants in Philadelphia across various cuisines and price points, highlighting what makes each one stand out. Please note that the restaurant scene can change, and it’s always a good idea to check for the latest reviews and openings. As of my last update, here are some of the best restaurants in Philadelphia:</p>
-<ol type="1">
-<li><p><strong>Zahav</strong> – This modern Israeli restaurant is a standout for its unique Middle Eastern flavors and its famous hummus. Chef Michael Solomonov has received numerous accolades, including a James Beard Award.</p></li>
-<li><p><strong>Vernick Food &amp; Drink</strong> – A New American restaurant known for its fresh and inventive dishes. Chef Greg Vernick’s approach to simple yet high-quality ingredients has garnered a strong following and critical acclaim.</p></li>
-<li><p><strong>Vetri Cucina</strong> – An intimate Italian dining experience that’s considered one of the best Italian restaurants in the country. Chef Marc Vetri’s tasting menu is a journey through exquisite, artisanal Italian dishes.</p></li>
-<li><p><strong>Fork</strong> – A contemporary American restaurant that focuses on local and seasonal ingredients. The menu is constantly evolving, and the restaurant is known for its attentive service and elegant atmosphere.</p></li>
-<li><p><strong>Reading Terminal Market</strong> – Not a single restaurant, but a historic market that offers a variety of cuisines from many vendors. It’s a must-visit for food lovers looking to sample Philly cheesesteaks, Pennsylvania Dutch fare, and much more.</p></li>
-<li><p><strong>Suraya</strong> – A Lebanese restaurant that has quickly become a favorite for its beautiful space and authentic flavors. It’s both a restaurant and a market, so you can enjoy a meal or take home some Middle Eastern ingredients.</p></li>
-<li><p><strong>Laurel</strong> – A small French-American restaurant that offers a prix-fixe tasting menu. Chef Nicholas Elmi’s creative dishes and the intimate setting make for a memorable dining experience.</p></li>
-<li><p><strong>Double Knot</strong> – This all-day concept serves coffee and pastries in the morning and transforms into a Japanese-inspired eatery by night. The sushi and robatayaki are highlights, as is the speakeasy-style dining room below the street level.</p></li>
-<li><p><strong>Pizzeria Beddia</strong> – Once named the “best pizza in America,” this pizzeria by Joe Beddia offers a small menu of meticulously crafted pies with a focus on quality ingredients and perfect crust.</p></li>
-<li><p><strong>El Vez</strong> – A vibrant Mexican restaurant that stands out for its fun atmosphere and creative takes on classic Mexican dishes. The guacamole and margaritas are particularly popular.</p></li>
-<li><p><strong>Bibou</strong> – A BYOB French restaurant that offers a weekly changing prix-fixe menu. Chef Pierre Calmels’ traditional French techniques and the cozy atmosphere make it a local favorite.</p></li>
-<li><p><strong>Royal Izakaya</strong> – A Japanese pub that serves a wide range of Japanese dishes, including expertly prepared sushi. The atmosphere is lively, and the menu is perfect for sharing.</p></li>
-</ol>
-<p>These restaurants have been chosen based on their reputation for quality, the skill and acclaim of their chefs, their contribution to Philadelphia’s dining scene, and the unique dining experiences they offer. Always be sure to check for the latest reviews, any changes in chefs or management, and to make reservations where necessary, as these popular spots can book up quickly.</p>
-</section>
-<section id="bards-list" class="level2">
-<h2 class="anchored" data-anchor-id="bards-list"><strong>Bard’s List:</strong></h2>
-<p>Sure, I can provide a list of some of the top restaurants in Philadelphia across various cuisines and price points, highlighting what makes each one stand out. Please note that the restaurant scene can change, and it’s always a good idea to check for the latest reviews and openings. As of my last update, here are some of the best restaurants in Philadelphia:</p>
-<ol type="1">
-<li><p><strong>Zahav</strong> – This modern Israeli restaurant is a standout for its unique Middle Eastern flavors and its famous hummus. Chef Michael Solomonov has received numerous accolades, including a James Beard Award.</p></li>
-<li><p><strong>Vernick Food &amp; Drink</strong> – A New American restaurant known for its fresh and inventive dishes. Chef Greg Vernick’s approach to simple yet high-quality ingredients has garnered a strong following and critical acclaim.</p></li>
-<li><p><strong>Vetri Cucina</strong> – An intimate Italian dining experience that’s considered one of the best Italian restaurants in the country. Chef Marc Vetri’s tasting menu is a journey through exquisite, artisanal Italian dishes.</p></li>
-<li><p><strong>Fork</strong> – A contemporary American restaurant that focuses on local and seasonal ingredients. The menu is constantly evolving, and the restaurant is known for its attentive service and elegant atmosphere.</p></li>
-<li><p><strong>Reading Terminal Market</strong> – Not a single restaurant, but a historic market that offers a variety of cuisines from many vendors. It’s a must-visit for food lovers looking to sample Philly cheesesteaks, Pennsylvania Dutch fare, and much more.</p></li>
-<li><p><strong>Suraya</strong> – A Lebanese restaurant that has quickly become a favorite for its beautiful space and authentic flavors. It’s both a restaurant and a market, so you can enjoy a meal or take home some Middle Eastern ingredients.</p></li>
-<li><p><strong>Laurel</strong> – A small French-American restaurant that offers a prix-fixe tasting menu. Chef Nicholas Elmi’s creative dishes and the intimate setting make for a memorable dining experience.</p></li>
-<li><p><strong>Double Knot</strong> – This all-day concept serves coffee and pastries in the morning and transforms into a Japanese-inspired eatery by night. The sushi and robatayaki are highlights, as is the speakeasy-style dining room below the street level.</p></li>
-<li><p><strong>Pizzeria Beddia</strong> – Once named the “best pizza in America,” this pizzeria by Joe Beddia offers a small menu of meticulously crafted pies with a focus on quality ingredients and perfect crust.</p></li>
-<li><p><strong>El Vez</strong> – A vibrant Mexican restaurant that stands out for its fun atmosphere and creative takes on classic Mexican dishes. The guacamole and margaritas are particularly popular.</p></li>
-<li><p><strong>Bibou</strong> – A BYOB French restaurant that offers a weekly changing prix-fixe menu. Chef Pierre Calmels’ traditional French techniques and the cozy atmosphere make it a local favorite.</p></li>
-<li><p><strong>Royal Izakaya</strong> – A Japanese pub that serves a wide range of Japanese dishes, including expertly prepared sushi. The atmosphere is lively, and the menu is perfect for sharing.</p></li>
-</ol>
-<p>These restaurants have been chosen based on their reputation for quality, the skill and acclaim of their chefs, their contribution to Philadelphia’s dining scene, and the unique dining experiences they offer. Always be sure to check for the latest reviews, any changes in chefs or management, and to make reservations where necessary, as these popular spots can book up quickly.</p>
+<p>I already have a Github Account, so I will name my new Repository in the same format provided - username.github.io</p>
+<hr>
+<p>Excellent! With your Github repository created specifically as “username.github.io” (replacing username with your actual username), you’ve laid the foundation for your website. Here’s how to proceed:</p>
+<p>Local Development: Github Pages works by hosting static content, which means your website needs to be built using HTML, CSS, and Javascript. You’ll need to develop your website locally on your computer before uploading it to Github.</p>
+<p>There are two main approaches for local development:</p>
+<p>Manual Coding: This involves writing the HTML, CSS, and Javascript code yourself from scratch. While offering the most control and flexibility, it requires some coding knowledge.</p>
+<p>Website Building Frameworks: These frameworks provide pre-built structures and functionalities to simplify website development. Popular options include Bootstrap, Foundation, and Jekyll. They offer templates and tools to help you build your website without extensive coding.</p>
+<p>Resources:</p>
+<p>You can find many online tutorials for learning HTML, CSS, and Javascript. For website building frameworks, explore their official documentation for detailed instructions: Bootstrap - https://getbootstrap.com/ Foundation - https://get.foundation/frameworks-docs.html Jekyll - https://jekyllrb.com/ Setting Up Local Environment: Whichever approach you choose, you’ll need a code editor to write and edit your website files. Popular options include Visual Studio Code, Atom, or Sublime Text.</p>
+<p>Building Your Website: Start by creating the basic structure of your portfolio website using HTML files for different pages (homepage, project pages, etc.). Use CSS to style your website and make it visually appealing. You can leverage Javascript for interactive elements or animations (optional).</p>
+<p>Pushing to Github: Once you’re happy with your local website, use Git commands or the Github desktop application to push your website files to your “username.github.io” repository on Github. This makes your website live and accessible through the URL “username.github.io”.</p>
+<p>Additional Resources:</p>
+<p>For a step-by-step guide on creating a Github Pages website, refer to the official documentation: https://docs.github.com/pages There are many online tutorials on creating a portfolio website with Github Pages. You can search for “[YouTube how to create a portfolio website with Github Pages]”. Remember, building a website takes time and effort. Don’t be discouraged if it takes a while to get the hang of it. There are many resources available online to help you through the process. Feel free to ask if you have any specific questions about HTML, CSS, Javascript, or website building frameworks as you move forward!</p>
+<hr>
+<p>As I progress through this process, I will continue to document and update my blog, so others can follow along. I’m hoping this process will produce a working portfolio and allow me to continue honing my coding skills!</p>
 
 
 </section>
